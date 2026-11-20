@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 6px 12px;
+}
+
+/* Cabecera con color de fondo */
+th {
+    background-color: #0b2a5b;
+    color: #ffffff;
+}
+
+/* Filas alternadas (efecto cebra) */
+tbody tr:nth-child(even) {
+    background-color: #e8eef7;
+}
+
+.error {
+    color: #b00020;
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #0b2a5b;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
